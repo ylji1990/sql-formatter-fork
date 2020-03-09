@@ -113,7 +113,10 @@ export default class Db2Formatter {
                 indexedPlaceholderTypes: ["?"],
                 namedPlaceholderTypes: [":"],
                 lineCommentTypes: ["--"],
-                specialWordChars: ["#", "@"]
+                /** ylji update 支持中文 ↓*/
+                // specialWordChars: ["#", "@"]
+                specialWordChars: ["#", "@", "\\u4e00-\\u9fa5"]
+                /** ylji update 支持中文 ↑*/
             });
         }
         return new Formatter(this.cfg, tokenizer).format(query);
