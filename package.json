@@ -1,6 +1,6 @@
 {
   "name": "sql-formatter-fork",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "base on sql-formatter@2.3.3",
   "license": "MIT",
   "repository": "ylji1990/sql-formatter-fork",
